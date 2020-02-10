@@ -4,7 +4,10 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
+    siteTitle: `Referenda`,
     siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteUrl: ``,
+    siteDescription: `A personal blog about the 2020 elections in New Zealand and U.S.`
   },
   plugins: [
     {
